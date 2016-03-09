@@ -155,8 +155,10 @@ _LIBRARIES=	\
 		supcplusplus \
 		sysdecode \
 		tacplus \
+		thr \
 		termcap \
 		termcapw \
+		topo \
 		ufs \
 		ugidfw \
 		ulog \
@@ -168,7 +170,8 @@ _LIBRARIES=	\
 		vmmapi \
 		wind \
 		wrap \
-		xo \
+		xml2 \
+                xo \
 		y \
 		ypclnt \
 		z \
@@ -455,6 +458,7 @@ LIBAVLDIR=	${OBJTOP}/cddl/lib/libavl
 LIBCTFDIR=	${OBJTOP}/cddl/lib/libctf
 LIBDTRACEDIR=	${OBJTOP}/cddl/lib/libdtrace
 LIBNVPAIRDIR=	${OBJTOP}/cddl/lib/libnvpair
+LIBTOPODIR=	${OBJTOP}/cddl/lib/libtopo
 LIBUMEMDIR=	${OBJTOP}/cddl/lib/libumem
 LIBUUTILDIR=	${OBJTOP}/cddl/lib/libuutil
 LIBZFSDIR=	${OBJTOP}/cddl/lib/libzfs
